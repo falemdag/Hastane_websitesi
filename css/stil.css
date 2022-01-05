@@ -1,0 +1,33 @@
+html. body {
+    /* margin ve padding'e 0 değeri atanarak resetlenir. Çünkü html etiketlerinin kendi boşlukları tasarımımızı bozar istediğimiz gibi durmaz.*/
+    margin: 0;
+    padding: 0;
+    /* one page tasarım yaptığımız için sayfaya yükseklik vermeliyiz ki window height çalışabilsin*/
+    height: 100%;
+}
+
+nav {
+    position: fixed;
+    top:0; left:0;
+    width:100%;
+    height: 50px;
+    background-color: #0b88b6;
+    text-align: right;
+}
+
+nav a {
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 15px 0 15px;
+    line-height: 50px;  /* line-height:sabit satır yüksekliği tanımlamak için. nav yüksekliği de 50px olduğundan bunu da 50 yaptık yazıları dikeyde ortalamak için*/
+
+}
+
+.container {
+    width: 1140px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
